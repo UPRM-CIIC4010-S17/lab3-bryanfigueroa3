@@ -40,7 +40,8 @@ public class MyPanelClass extends JPanel
 //       g.setColor(Color.CYAN);
 //       g.drawLine(x1, y2, x2, y1);
 		
+		//Draw a circle
 		g.setColor(Color.BLUE);
-        g.fillOval(x1, y1, 55, 55);
+		g.fillOval((width/2)-27, (height/2)-27, 55, 55); 
      }
 }
